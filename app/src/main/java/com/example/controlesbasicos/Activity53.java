@@ -18,6 +18,7 @@ public class Activity53 extends AppCompatActivity implements View.OnClickListene
         super.onPostCreate(savedInstanceState);
         setContentView(R.layout.activity_5_3_java);
 
+
         //Añadimos los listeners a los botones
         Button btn1 = findViewById(R.id.btnBoton1);
         Button btn2 = findViewById(R.id.btnBoton2);
