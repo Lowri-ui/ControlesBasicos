@@ -92,7 +92,7 @@ public class ActivityButton extends AppCompatActivity implements View.OnClickLis
             miTexto.append("\n También le gusta el chorizo");
 
             // Animaciones miTExto1 definidas en xml
-            Animation miAnimacion = AnimationUtils.loadAnimation(this, R.anim.animacion);
+            Animation miAnimacion = AnimationUtils.loadAnimation(this, R.anim.rotar1);
             miAnimacion.setRepeatMode(Animation.RESTART);
             miAnimacion.setRepeatCount(20);
             miTexto.startAnimation(miAnimacion);

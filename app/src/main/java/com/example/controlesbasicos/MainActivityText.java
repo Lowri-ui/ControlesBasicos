@@ -46,7 +46,7 @@ public class MainActivityText extends AppCompatActivity {
         miTexto1.append("\n También le gusta el chorizo");
 
         // Animaciones miTExto1 definidas en xml
-        Animation miAnimacion = AnimationUtils.loadAnimation(this, R.anim.animacion);
+        Animation miAnimacion = AnimationUtils.loadAnimation(this, R.anim.varios1);
         miAnimacion.setRepeatMode(Animation.RESTART);
         miAnimacion.setRepeatCount(20);
         miTexto1.startAnimation(miAnimacion);
