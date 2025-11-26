@@ -9,6 +9,7 @@
     tools:context=".ActivityProgressBar">
 
     <TextView
+        android:id="@+id/textViewProgreso1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/tarea_de_duraci_n_desconocida"
@@ -28,7 +29,7 @@ para indicar que algo está sucediendo.
         android:visibility="gone"
         tools:visibility="visible"/>
 <!--
-android:onClick: Vincula cada botón a un método específico en nuestra Activity.
+android:onClick: Vincula cada botón a un metodo específico en nuestra Activity.
 -->
     <Button
         android:id="@+id/buttonIniciarCarga"
